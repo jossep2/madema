@@ -14,8 +14,8 @@
   --whatsapp: #25D366;
   --cafe: #472b04;
   --LetraNegra: rgba(0,0,0,.85);
-  --sombraAmarilla: #f3da87;
-  --fondotransparenteAmarillo: #ffe18075;
+  --sombraAmarilla: #d8ba68;
+  --fondotransparenteAmarillo: #805c2a36;
 }
 
 body {
@@ -376,9 +376,9 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
   font-weight: 900;
-  text-shadow: 0em 0em 0.35em rgb(255, 255, 255);
+  text-shadow: 0em 0em 0.35em rgb(0, 0, 0);
   font-size: large;
 }
 
