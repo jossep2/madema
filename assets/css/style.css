@@ -13,6 +13,9 @@
   --cafeOscuro: #222;
   --whatsapp: #25D366;
   --cafe: #472b04;
+  --LetraNegra: rgba(0,0,0,.85);
+  --sombraAmarilla: #f3da87;
+  --fondotransparenteAmarillo: rgba(255, 225, 128, 0.527);
 }
 
 body {
@@ -85,11 +88,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(42, 44, 57, 0.9);
+  background: var(--cafeOscuro);
 }
 
 #header.header-transparent {
-  background: transparent;
+  /*background: transparent;*/
 }
 
 #header.header-scrolled {
@@ -333,7 +336,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg,  var(--Amarillo) 10%, var(--cafeOscuro) 87%);
+  background-image: url("../img/banner.jpg");
+  /*background: linear-gradient(0deg,  var(--Amarillo) 10%, var(--cafeOscuro) 87%);*/
   padding: 0;
 }
 
@@ -349,10 +353,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #fff;
+  color: rgb(17, 17, 17);
   margin-bottom: 30px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 900;
+  text-shadow: 0 0 0.28em white;
 }
 
 #hero p {
@@ -360,7 +365,11 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #fff;
+  color: rgb(17, 17, 17);
+  background-color: rgba(255, 255, 255, 0.335);
+  padding: 10px;
+  font-weight: 900;
+  text-shadow: 0em 0em 0.1em rgb(255, 255, 255);
 }
 
 #hero .carousel-control-prev, #hero .carousel-control-next {
