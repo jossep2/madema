@@ -15,13 +15,13 @@
   --cafe: #472b04;
   --LetraNegra: rgba(0,0,0,.85);
   --sombraAmarilla: #f3da87;
-  --fondotransparenteAmarillo: rgba(255, 225, 128, 0.459);
+  --fondotransparenteAmarillo: #ffe18075;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: rgb(255, 253, 230);
+  background-image: url(../img/fondo.jpg);
 }
 
 a {
