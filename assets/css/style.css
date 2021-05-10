@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 900;
-  text-shadow: 0 0 0.28em white;
+  text-shadow: 0 0 0.2em white;
 }
 
 #hero p {
@@ -366,10 +366,11 @@ h1, h2, h3, h4, h5, h6 {
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: rgb(17, 17, 17);
-  background-color: rgba(255, 255, 255, 0.075);
+  background-color: rgba(255, 255, 255, 0.2);
   padding: 10px;
   font-weight: 900;
-  text-shadow: 0em 0em 0.1em rgb(255, 255, 255);
+  text-shadow: 0em 0em 0.28em rgb(255, 255, 255);
+  font-size: large;
 }
 
 #hero .carousel-control-prev, #hero .carousel-control-next {
