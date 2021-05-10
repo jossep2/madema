@@ -9,13 +9,13 @@
 # General
 --------------------------------------------------------------*/
 :root {
-  --Amarillo: #dfd14e;
+  --Amarillo: #fff27b;
   --cafeOscuro: #222;
   --whatsapp: #25D366;
   --cafe: #472b04;
   --LetraNegra: rgba(0,0,0,.85);
   --sombraAmarilla: #f3da87;
-  --fondotransparenteAmarillo: rgba(255, 225, 128, 0.527);
+  --fondotransparenteAmarillo: rgba(255, 225, 128, 0.459);
 }
 
 body {
@@ -378,7 +378,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto 30px auto;
   color: rgb(17, 17, 17);
   font-weight: 900;
-  text-shadow: 0em 0em 0.25em rgb(255, 255, 255);
+  text-shadow: 0em 0em 0.35em rgb(255, 255, 255);
   font-size: large;
 }
 
@@ -412,13 +412,15 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid var(--whatsapp);
+  border: 2px solid var(--cafe);
+  background: #472b0457;
 }
 
 #hero .btn-get-started:hover {
   background: var(--whatsapp);
   color: #fff;
   text-decoration: none;
+  border: 2px solid var(--whatsapp);
 }
 
 @media (min-width: 1024px) {
