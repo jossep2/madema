@@ -13,6 +13,7 @@
   --cafeOscuro: #222;
   --whatsapp: #25D366;
   --cafe: #472b04;
+  --cafetransparente: #472b0457;
   --LetraNegra: rgba(0,0,0,.85);
   --sombraAmarilla: #d8ba68;
   --fondotransparenteAmarillo: #805c2a36;
@@ -615,16 +616,17 @@ section {
   border-radius: 5px;
   transition: 0.3s;
   line-height: 1;
-  color: var(--cafeOscuro);
+  color: var(--cafe);
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid var(--Amarillo);
+  border: 2px solid var(--cafe);
+  background: var(--fondotransparenteAmarillo);
 }
 
 .about .content .btn-learn-more:hover {
   background: var(--Amarillo);
-  color: var(--cafeOscuro);
+  color: black);
   text-decoration: none;
 }
 
@@ -716,18 +718,18 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: var(--Amarillo);
+  background: var(--cafe);
   padding: 80px 0;
 }
 
 .cta h3 {
-  color: var(--cafeOscuro);
+  color: white;
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: var(--cafeOscuro);
+  color: white;
 }
 
 .cta .cta-btn {
@@ -948,6 +950,14 @@ section {
 
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
+}
+
+@media (max-width: 582px){
+  .portfolio #portfolio-flters li{
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 13px;
+  }
 }
 
 /*--------------------------------------------------------------
