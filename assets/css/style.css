@@ -337,8 +337,19 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative;
   background-image: url("../img/banner.jpg");
+  background-color: rgba(255, 255, 255, 0.671);
   /*background: linear-gradient(0deg,  var(--Amarillo) 10%, var(--cafeOscuro) 87%);*/
   padding: 0;
+}
+
+#hero::before{
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255, 255, 255, 0.13);
 }
 
 #hero .carousel-container {
@@ -366,8 +377,6 @@ h1, h2, h3, h4, h5, h6 {
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: rgb(17, 17, 17);
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 10px;
   font-weight: 900;
   text-shadow: 0em 0em 0.28em rgb(255, 255, 255);
   font-size: large;
